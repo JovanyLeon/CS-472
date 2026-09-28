@@ -21,6 +21,7 @@
 2. What if the recieving computer can never keep up at any moment
 3. What happens in TCP when the receiver advertises a zero receive window, and how does the sender know when it can start sending again? 
 4. Does the TCP ever stop sending request/stop asking the recieving system if its ready?
+5. So to wrap everything together my device uses tcp to as a reciever from another system with information on its current data buffer space. Then if there is no buffer space a series of yes and no's are given from my system to the tcp to decide weather its ready for the data. This is slowly incremented until all the information is given?
 
 #### C. Connection to 1974 Paper (1-2 paragraphs)
 
